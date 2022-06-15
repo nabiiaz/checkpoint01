@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e9e9;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3CB371;
+    height: 100px; 
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25) ;
+    z-index: 1;
+}
+
+.logo img{
+    padding: 10px;
+    padding-left: 50px;
+    width: 110px;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    
+}
+  
+nav ul li a {
+    color: var(--light-color);
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 15px 40px;
+    border: 1px solid;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu img{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.seçao1{
+    display: flex;
+
+}
+
+.seçao2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.titulocuriosidades{
+    display: flex;
+    padding-left: 170px;
+    margin-top: 30px;
+}
+
+
+.seçao3{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.video{
+    border-radius: 30px;
+    height: 600px;
+    width: 70%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.card1{
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.texto1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.texto2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.texto3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.card2{
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.cardimg{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card3{
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    background-image: url(/img/jardim-botanico.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height:830px;
+    font-size: 60px;
+    
+}
+
+.titbanner{
+    text-align: center;
+    background-color: #d3d3d380 ;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.seçao4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 10px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+
+.formularioinfos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+textarea{
+    border-radius: 5px;
+    height: 100px;
+    width: 100%;
+    padding-left: 10px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+
+}
+.nome{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formulario{
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
+}
+
+
+.formulario2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.botao{
+    background-color:#3CB371;
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.botao:hover{
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+
+.formulariobotao{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #3CB371;
+    width: 100%;
+   
+}
+
+h5{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+@media (max-width: 425px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: center;
+    }
+
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    li.botton__menu a{
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 19px;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    nav ul li a {
+        color: var(--light-color);
+        text-decoration: none;
+        border-radius: 40px;
+        padding: 2px 10px;
+        border: 1px solid;
+        font-size: 5px;
+    }
+
+
+    .logo {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img{
+        width: 110px;
+        height: 80px;
+        padding-right: 50px;
+        margin-bottom: 16px;
+    }
+
+    .banner{
+        display: flex;
+        width: 100%;
+        background-image: url(/img/jardim-botanico.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        height:300px;
+        font-size: 15px;
+        
+    }
+
+    .titbanner{
+        text-align: center;
+        background-color: #d3d3d380 ;
+        border-radius: 30px;
+        width: 80%;
+        height: 150px;
+        padding-top: 22px;
+    }
+    
+
+    .titulocuriosidades{
+        display: flex;
+        padding-left: 40px;
+
+    }
+
+    .cataratas{
+        display: flex;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        width:136px;
+        height: 250px;
+        background-image: url(/img/cataratas-do-iguacu-brasil.jpg);
+    }
+
+    .seçao2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .video{
+        border-radius: 30px;
+        height: 400px;
+        width: 75%;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+        margin-bottom: 30px;
+    }
+    
+    .menu img{
+        width: 15px;
+        height: 15px;
+        padding-right: 5px;
+    }
+}
+
